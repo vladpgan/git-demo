@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Exported from [server]</comment>
+<entry key="categoryPath">Jenkins Test</entry>
+<entry key="name">Step 2</entry>
+<entry key="type">Workflow</entry>
+<entry key="id">5a5614cb-4c8f-4402-a707-1d343ff46ad6</entry>
+</properties>
