@@ -3,7 +3,7 @@
 <properties>
 <comment>Exported from [server]</comment>
 <entry key="categoryPath">Jenkins Test</entry>
-<entry key="name">Full Build</entry>
+<entry key="name">Provision Virtual Machine</entry>
 <entry key="type">Workflow</entry>
 <entry key="id">81a188be-0706-41ef-969d-9ad630efb290</entry>
 </properties>
