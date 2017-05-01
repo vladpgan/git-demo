@@ -11,8 +11,8 @@
   </workflow-item>
   <workflow-item name="item0" out-name="item2" catch-name="item1" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[//System.log("hello!!!");
-throw("VM Provisoning failed: There are not enough resources on the Host.");]]></script>
+    <script encoded="false"><![CDATA[System.log("Hello World! Everything is fine!");
+//throw("VM Provisoning failed. There are not enough resources on the Host.");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="225.0"/>
