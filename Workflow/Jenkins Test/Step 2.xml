@@ -3,8 +3,21 @@
   <display-name><![CDATA[Step 2]]></display-name>
   <description><![CDATA[311]]></description>
   <position y="50.0" x="100.0"/>
-  <workflow-item name="item0" type="end" end-mode="0">
-    <position y="50.0" x="240.0"/>
+  <attrib name="errorCode" type="string" read-only="false">
+    <value encoded="n"><![CDATA[]]></value>
+  </attrib>
+  <workflow-item name="item2" type="end" end-mode="0">
+    <position y="45.40909090909091" x="404.5"/>
+  </workflow-item>
+  <workflow-item name="item0" out-name="item2" catch-name="item1" throw-bind-name="errorCode" type="task">
+    <display-name><![CDATA[Scriptable task]]></display-name>
+    <script encoded="false"><![CDATA[throw 1;]]></script>
+    <in-binding/>
+    <out-binding/>
+    <position y="55.90909090909091" x="225.0"/>
+  </workflow-item>
+  <workflow-item name="item1" throw-bind-name="errorCode" type="end" end-mode="1">
+    <position y="109.04545454545453" x="265.0"/>
   </workflow-item>
   <presentation/>
 </workflow>
