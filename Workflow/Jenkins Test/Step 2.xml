@@ -11,7 +11,7 @@
   </workflow-item>
   <workflow-item name="item0" out-name="item2" catch-name="item1" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("yoooo");]]></script>
+    <script encoded="false"><![CDATA[System.log("so");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="225.0"/>
