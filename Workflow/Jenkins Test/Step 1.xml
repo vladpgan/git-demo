@@ -7,18 +7,17 @@
     <value encoded="n"><![CDATA[]]></value>
   </attrib>
   <workflow-item name="item0" type="end" end-mode="0">
-    <position y="45.40909090909091" x="384.5"/>
+    <position y="45.40909090909091" x="524.5"/>
   </workflow-item>
   <workflow-item name="item1" out-name="item0" catch-name="item2" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("the change!");
-//throw("Bug #1 is present in Step 1 Workflow!");]]></script>
+    <script encoded="false"><![CDATA[System.log("100 Dollars");]]></script>
     <in-binding/>
     <out-binding/>
-    <position y="55.40909090909091" x="204.5"/>
+    <position y="55.90909090909091" x="285.0"/>
   </workflow-item>
   <workflow-item name="item2" throw-bind-name="errorCode" type="end" end-mode="1">
-    <position y="109.04545454545453" x="245.0"/>
+    <position y="109.04545454545453" x="325.0"/>
   </workflow-item>
   <presentation/>
 </workflow>
