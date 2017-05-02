@@ -13,7 +13,7 @@
     <display-name><![CDATA[Scriptable task]]></display-name>
     <script encoded="false"><![CDATA[//System.log("This is Bug #1, please fix me!");
 //throw("Error: Please fix Bug #1");
-System.log("Bug #1 is fixed!");]]></script>
+System.log("Bug #1 is fixed again!");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="285.0"/>
