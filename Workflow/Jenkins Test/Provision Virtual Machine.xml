@@ -41,7 +41,8 @@ The latest commit of the current working branch will get imported.]]></descripti
   </workflow-item>
   <workflow-item name="item5" out-name="item4" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("Bug 2 is present!");]]></script>
+    <script encoded="false"><![CDATA[System.log("Bug 2 is present!");
+System.log("I fixed it!");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.40909090909091" x="344.5"/>
