@@ -8,7 +8,7 @@
   </workflow-item>
   <workflow-item name="item1" out-name="item0" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("fix-34");]]></script>
+    <script encoded="false"><![CDATA[System.log("the change 2");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="245.0"/>
