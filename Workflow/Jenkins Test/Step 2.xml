@@ -12,7 +12,7 @@
   <workflow-item name="item1" out-name="item2" catch-name="item0" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
     <script encoded="false"><![CDATA[// 1
-System.out("Hey im trying to fix Bug #2");]]></script>
+System.log("Hey im trying to fix Bug #2");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.40909090909091" x="204.5"/>

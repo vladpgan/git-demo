@@ -6,6 +6,9 @@
     <value encoded="n"><![CDATA[dunes://service.dunes.ch/CustomSDKObject?id='Production%20Jenkins%20Demo'&dunesName='CodeGuardian:GitRemoteRepo']]></value>
     <description><![CDATA[Select the Git Reposotory you would want to pull from]]></description>
   </attrib>
+  <attrib name="errorCode" type="string" read-only="false">
+    <value encoded="n"><![CDATA[]]></value>
+  </attrib>
   <workflow-item name="item0" type="end" end-mode="0">
     <position y="45.40909090909091" x="1244.5"/>
   </workflow-item>
@@ -39,7 +42,7 @@
 The latest commit of the current working branch will get imported.]]></description>
     <position y="55.40909090909091" x="524.5"/>
   </workflow-item>
-  <workflow-item name="item5" out-name="item6" type="task">
+  <workflow-item name="item5" out-name="item6" catch-name="item7" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
     <script encoded="false"><![CDATA[//throw("This is a Bug");
 System.log("Dev 1 fixed the bug");]]></script>
@@ -47,12 +50,18 @@ System.log("Dev 1 fixed the bug");]]></script>
     <out-binding/>
     <position y="55.90909090909091" x="245.0"/>
   </workflow-item>
-  <workflow-item name="item6" out-name="item4" type="task">
+  <workflow-item name="item6" out-name="item4" catch-name="item8" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
     <script encoded="false"><![CDATA[// demo code]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.40909090909091" x="384.5"/>
+  </workflow-item>
+  <workflow-item name="item7" throw-bind-name="errorCode" type="end" end-mode="1">
+    <position y="109.04545454545453" x="285.0"/>
+  </workflow-item>
+  <workflow-item name="item8" throw-bind-name="errorCode" type="end" end-mode="1">
+    <position y="109.04545454545453" x="425.0"/>
   </workflow-item>
   <presentation/>
 </workflow>
