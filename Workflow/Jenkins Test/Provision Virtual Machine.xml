@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<workflow xmlns="http://vmware.com/vco/workflow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vmware.com/vco/workflow http://vmware.com/vco/workflow/Workflow-v4.xsd" root-name="item5" object-name="workflow:name=generic" id="81a188be-0706-41ef-969d-9ad630efb290" version="0.0.4" api-version="6.0.0" allowed-operations="vef" restartMode="1" resumeFromFailedMode="0">
+<workflow xmlns="http://vmware.com/vco/workflow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vmware.com/vco/workflow http://vmware.com/vco/workflow/Workflow-v4.xsd" root-name="item4" object-name="workflow:name=generic" id="81a188be-0706-41ef-969d-9ad630efb290" version="0.0.4" api-version="6.0.0" allowed-operations="vef" restartMode="1" resumeFromFailedMode="0">
   <display-name><![CDATA[Provision Virtual Machine]]></display-name>
   <position y="50.0" x="100.0"/>
   <attrib name="Repository" type="CodeGuardian:GitRemoteRepo" read-only="false">
@@ -41,27 +41,6 @@
     <description><![CDATA[Pull (Import) Package from the Git Repo.
 The latest commit of the current working branch will get imported.]]></description>
     <position y="55.40909090909091" x="524.5"/>
-  </workflow-item>
-  <workflow-item name="item5" out-name="item6" catch-name="item7" throw-bind-name="errorCode" type="task">
-    <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[throw("This is a Bug!");
-System.log("Dev 1 fixed the bug");]]></script>
-    <in-binding/>
-    <out-binding/>
-    <position y="55.90909090909091" x="245.0"/>
-  </workflow-item>
-  <workflow-item name="item6" out-name="item4" catch-name="item8" throw-bind-name="errorCode" type="task">
-    <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[// demo code]]></script>
-    <in-binding/>
-    <out-binding/>
-    <position y="55.40909090909091" x="384.5"/>
-  </workflow-item>
-  <workflow-item name="item7" throw-bind-name="errorCode" type="end" end-mode="1">
-    <position y="109.04545454545453" x="285.0"/>
-  </workflow-item>
-  <workflow-item name="item8" throw-bind-name="errorCode" type="end" end-mode="1">
-    <position y="109.04545454545453" x="425.0"/>
   </workflow-item>
   <presentation/>
 </workflow>
