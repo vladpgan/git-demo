@@ -11,8 +11,7 @@
   </workflow-item>
   <workflow-item name="item1" out-name="item0" catch-name="item2" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[throw("This is the VM Staging script");
-//System.log("Developer #1 has made a change");]]></script>
+    <script encoded="false"><![CDATA[// a demo script]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="285.0"/>
