@@ -44,7 +44,7 @@ The latest commit of the current working branch will get imported.]]></descripti
   </workflow-item>
   <workflow-item name="item5" out-name="item6" catch-name="item7" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[//throw("This is a Bug");
+    <script encoded="false"><![CDATA[throw("This is a Bug!");
 System.log("Dev 1 fixed the bug");]]></script>
     <in-binding/>
     <out-binding/>
