@@ -11,7 +11,7 @@
   </workflow-item>
   <workflow-item name="item1" out-name="item0" catch-name="item2" throw-bind-name="errorCode" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("fixed-33!");
+    <script encoded="false"><![CDATA[System.log("fixed-new!");
 //throw("Bug #1 is present in Step 1 Workflow!");]]></script>
     <in-binding/>
     <out-binding/>
