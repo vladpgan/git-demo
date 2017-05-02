@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<workflow xmlns="http://vmware.com/vco/workflow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vmware.com/vco/workflow http://vmware.com/vco/workflow/Workflow-v4.xsd" root-name="item1" object-name="workflow:name=generic" id="c4ff2c56-9ba1-4f9a-9a8a-38505cdc5c7f" version="0.0.7" api-version="6.0.0" allowed-operations="vef" restartMode="1" resumeFromFailedMode="0">
+<workflow xmlns="http://vmware.com/vco/workflow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vmware.com/vco/workflow http://vmware.com/vco/workflow/Workflow-v4.xsd" root-name="item1" object-name="workflow:name=generic" id="c4ff2c56-9ba1-4f9a-9a8a-38505cdc5c7f" version="0.0.8" api-version="6.0.0" allowed-operations="vef" restartMode="1" resumeFromFailedMode="0">
   <display-name><![CDATA[Step 3]]></display-name>
   <description><![CDATA[5]]></description>
   <position y="50.0" x="100.0"/>
@@ -8,7 +8,7 @@
   </workflow-item>
   <workflow-item name="item1" out-name="item0" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
-    <script encoded="false"><![CDATA[System.log("fix-2");]]></script>
+    <script encoded="false"><![CDATA[System.log("fix-24");]]></script>
     <in-binding/>
     <out-binding/>
     <position y="55.90909090909091" x="245.0"/>
